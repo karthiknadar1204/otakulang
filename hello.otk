@@ -1,0 +1,6 @@
+shimasu greet(kudasai name) {
+  return "Hello, " + name;
+}
+
+kudasai message = (greet "World");
+kudasai result = message;
